@@ -6,6 +6,10 @@ module.exports.handler = async (event) => {
   var day = new Date().getDay()
   var isItFriday = (day === 5)  ? 'Fredag!': 'Ikke Fredag!';
 
+  if (event.queryStringParameters && event.queryStringParameters['snyd']) {
+    isItFriday = "Fredag!"
+  }
+  
   return {
     statusCode: 200,
     headers: {
