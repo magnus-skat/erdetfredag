@@ -1,7 +1,5 @@
-# Learn Terraform - Lambda functions and API Gateway
+# Er det fredag? Nu som et API
 
-AWS Lambda functions and API gateway are often used to create serverlesss
-applications.
+En lille lambda, der kan spinnes op, så man har et api, der kan svare på det vigtigste af alle spørgsmål:
 
-Follow along with this [tutorial on HashiCorp
-Learn](https://learn.hashicorp.com/tutorials/terraform/lambda-api-gateway?in=terraform/aws).
+"Er det fredag"
